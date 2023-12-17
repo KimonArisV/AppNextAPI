@@ -65,7 +65,7 @@ export const FOOTER_LINKS = [
     links: [
       'About HelpTheFellow',
       //'Press Releases',
-      'Environment',
+      'Environment for preschoolers',
       //'Jobs',
       //'Privacy Policy',
       'Contact Us',

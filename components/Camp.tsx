@@ -10,8 +10,41 @@ interface CampProps {
 
 const CampSite = ({backgroundImage,title,subtitle,peopleJoined}:CampProps) =>{
   return(
-    <div>
+    <div className={`h-full w-full min-w-[1100px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-r-5xl 2xl:rounded-5xl`}>
+     {/* below is the div that keeps the whole image container */}
+    <div className="flex h-full flex-col items-start justify-between p-6 lg:px-20 lg:py-10" >
 
+    {/* below is the div that keeps the icon,title, and subtitle */}
+    <div className="flexCenter gap-4">
+      <div className="rounded-full bg-gray-50 p-4">
+        <Image 
+          src="/folded-map.svg"
+          alt="map"
+          width={28}
+          height={28}
+          />
+      </div>
+      <div className="flex flex-col gap-1">
+        <h4 className="bold-18 text-white">{title}</h4>
+        <p className="regular-14 text-white">{subtitle}</p>
+      </div>
+    </div>
+    <div className="flexCenter gap-6">
+      <span className="flex -space-x-4 overflow-hidden">
+        {PEOPLE_URL.map((url)=>(
+          <Image
+            className="inline-block h-10 w-10 rounded-full"
+            src={url}
+            key={url}
+            alt="person"
+            width={52}
+            height={52}
+          />
+        ))}
+      </span>
+      <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
+    </div>
+    </div>
     </div>
   )
 }
@@ -21,15 +54,15 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto
                       lg:h-[400px] xl:h-[640px]">
           < CampSite 
-              backgroundImage: "bg-img-1"
-              title: "Preschool Coders" 
-              subtitle: "Coder Level 1"
-              peopleJoined: "30+ Joined" />
+              backgroundImage= "bg-bg-img-1"
+              title= "Preschool Coders" 
+              subtitle= "Coder Level 1"
+              peopleJoined= "30+ Joined" />
           < CampSite 
-              backgroundImage: "bg-img-2"
-              title: "Become a Math Genius" 
-              subtitle: "Math Level 1"
-              peopleJoined: "40+ Joined" />
+              backgroundImage= "bg-bg-img-2"
+              title= "Become a Math Genius" 
+              subtitle= "Math Level 1"
+              peopleJoined= "40+ Joined" />
       </div>
 
       <div className="flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6">
@@ -39,15 +72,21 @@ const Camp = () => {
             <strong>Feeling overwhelmed</strong> with no time for teaching math and coding to your 
             preschooler?
           </h2>
-          <p className="regular-14">
-          What if there was an effortless solution to give your child a head start 
+          <p className="regular-14 mt-3">
+          {/* What if there was an effortless solution to give your child a head start 
           without the stress? Transform your child's preschool years into a powerhouse
           of learning with our hassle-free app. No time or expertise needed – we make 
           math and coding education a breeze for busy parents, ensuring your little one 
-          thrives from the very start. No distractions, no supervision necessery and no 
-          ads.
+          thrives from the very start.  */}
+          No distractions, no supervision necessery and no ads.
           </p>
-          <Image className="camp-quote"
+          <Image 
+            src="quote.svg"
+            alt="camp-2"
+            width={186}
+            height={219}
+            className="camp-quote"
+
             />
         </div>
       </div>

@@ -19,10 +19,10 @@ body {
     @apply  border-white bg-white px-8 py-3 text-green-50
   }
   .btn_white_text  { 
-    @apply  border-white bg-white px-8 py-3 text-gray-90
+    @apply  border-gray-50 bg-white px-8 py-5 text-gray-500
   }
-  .btn_green  { 
-    @apply  border-green-50 bg-green-50 px-8 py-5 text-white
+  .btn_gray  { 
+    @apply  border-gray-50 bg-gray-500 px-8 py-5 text-white
   }
   .btn_dark_green { 
     @apply  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
@@ -129,6 +129,7 @@ body {
     @apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
   }
 
+
   /* Camp */
   .camp-quote {
     @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
@@ -155,3 +156,8 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+/* .hero-map {
+  background: object-scale-down;
+  
+} */

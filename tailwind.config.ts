@@ -6,6 +6,9 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    // fill:{
+    //   current: 'red'
+    // },
     extend: {
       colors: {
         green: {
@@ -34,7 +37,7 @@ module.exports = {
         'bg-img-2': "url('/img-2.png')", //should put a math image here 
         'feature-bg': "url('/feature-bg.png')", 
         pattern: "url('/pattern.png')", 
-        'pattern-2': "url('/pattern-bg.png')", //change this
+        'pattern-2': "url('/feature-bg.png')",//"url('/pattern-bg.png')", //change this
       },
       screens: {
         xs: '400px',

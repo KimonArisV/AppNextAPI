@@ -45,7 +45,16 @@ const Footer = () => {
             </FooterColumn>
           </div>
 
-          
+          <div className="flex flex-col gap-5 max-md:mt-5">
+            <FooterColumn title={SOCIALS.title} >
+              {SOCIALS.links.map(link=>(
+                <Link href="/" key={link}>
+                  <Image src={link} alt="logo" width={24} height={24} />
+                </Link>
+              ))}
+            </FooterColumn>
+          </div>
+
         </div>
       </div>
 

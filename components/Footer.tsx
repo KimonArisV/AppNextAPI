@@ -60,8 +60,8 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="border bg-gray-20 w-full">
-        <p className="regular-14 w-full text-center text-gray-50">2024 HelpTheFellow | All rights reserved</p>
+      <div className="border bg-gray-500 w-full">
+        <p className="regular-14 w-full text-center text-white">2024 HelpTheFellow | All rights reserved</p>
       </div>
 
     </footer>

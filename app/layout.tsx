@@ -6,8 +6,8 @@ import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'HelpTheFellow',
-  description: 'Website for HelpTheFellow, an app for kids to learn early on careers that the guardians\
-  can not help them with.',
+  description: 'Platform for HelpTheFellow, an app designed to introduce kids to early \
+  career exploration in areas beyond the expertise of their guardians.',
 }
 
 export default function RootLayout({

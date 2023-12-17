@@ -6,7 +6,12 @@ import {FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS} from '@/constants';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+
+      <div className="border bg-gray-20">
+        <p className="regular-14 w-full text-center text-gray-50">2024 HelpTheFellow | All rights reserved</p>
+      </div>
+    </footer>
   )
 }
 

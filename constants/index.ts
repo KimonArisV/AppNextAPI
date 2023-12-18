@@ -9,10 +9,10 @@ export const NAV_LINKS = [
   
 // CAMP SECTION
 export const PEOPLE_URL = [
-  '/person-1.png', //small kids icons instead 
-  '/person-2.png', //small kids icons instead
-  '/person-3.png', //small kids icons instead
-  '/person-4.png', //small kids icons instead
+  '/person-1.png', //small kids icons  
+  '/person-2.png', //small kids icons
+  '/person-3.png', //small kids icons 
+  '/person-4.png', //small kids icons 
 ];
 
 // FEATURES SECTION
@@ -64,10 +64,7 @@ export const FOOTER_LINKS = [
     title: 'Learn More',
     links: [
       'About HelpTheFellow',
-      //'Press Releases',
       'Environment for preschoolers',
-      //'Jobs',
-      //'Privacy Policy',
       'Contact Us',
     ],
   },
@@ -81,7 +78,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: 'Chief Executive Officer', value: 'HelpTheFellow@gmail.com' },
-    //{ label: 'Email Officer', value: 'email' },
+    //{ label: '', value: '' },
   ],
 };
 

@@ -88,8 +88,7 @@ const Courses = () => {
             alt="large quotes on the background"
             width={186}
             height={219}
-            className="camp-quote"
-
+            className="course-quote"
             />
         </div>
       </div>

@@ -36,8 +36,9 @@ module.exports = {
         'bg-img-1': "url('/img-1.png')", //should put a coding image here
         'bg-img-2': "url('/img-2.png')", //should put a math image here 
         'feature-bg': "url('/feature-bg.png')", 
+        //'short-logo-bg' : "url('/HelpTheFellowShortIco.svg')",
         pattern: "url('/pattern.png')", 
-        'pattern-2': "url('/feature-bg.png')",//"url('/pattern-bg.png')", //change this
+        'pattern-2': "url('/feature-bg.png')", //"url('/pattern-bg.png')", //change this
       },
       screens: {
         xs: '400px',

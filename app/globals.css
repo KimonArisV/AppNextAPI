@@ -25,7 +25,7 @@ body {
     @apply  border-gray-50 bg-gray-500 px-8 py-5 text-white
   }
   .btn_dark_green { 
-    @apply  bg-green-90 px-8 py-4 text-white transition-all hover:bg-black
+    @apply  bg-gray-500 px-8 py-4 text-white transition-all hover:bg-black
   }
   .btn_dark_green_outline  { 
     @apply border-gray-20 bg-green-90 px-8 py-5 text-white
@@ -131,7 +131,7 @@ body {
 
 
   /* Camp */
-  .camp-quote {
+  .course-quote {
     @apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
   }
 
@@ -143,7 +143,7 @@ body {
   /* Get App */
   .get-app {
     @apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden
-     bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row 
+    btn_gray bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row 
      sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
   }
 }

@@ -19,8 +19,8 @@ export const PEOPLE_URL = [
 export const FEATURES = [
   {
     title: 'Personalized Learning Paths:',
-    icon: '/map.svg',
-    variant: 'green',
+    icon: '/HelpTheFellowShortIco.svg',
+    variant: 'gray',
     description:
       "Unlock your child's potential with personalized learning paths tailored to their unique \
       interests and your educational goals. Our AI-powered system ensures your child stays focused \
@@ -29,8 +29,8 @@ export const FEATURES = [
   },
   {
     title: 'Distraction-Free Video Library:',
-    icon: '/calendar.svg',
-    variant: 'green',
+    icon: '/HelpTheFellowShortIco.svg',
+    variant: 'gray',
     description:
       "Dive into our curated video library where educational concepts come to life! Our platform \
       organizes and filters content seamlessly, eliminating the risk of unintended detours into \
@@ -39,8 +39,8 @@ export const FEATURES = [
   },
   {
     title: 'Guardian-Curated Plans:',
-    icon: '/tech.svg',
-    variant: 'green',
+    icon: '/HelpTheFellowShortIco.svg',
+    variant: 'gray',
     description:
       "Take the guesswork out of your child's learning journey! Our service empowers guardians to curate \
       personalized plans based on their aspirations for their child. Let our AI understand your \
@@ -48,8 +48,8 @@ export const FEATURES = [
       math, and English language skills."},
   {
     title: 'Early Learning Advantage:',
-    icon: '/location.svg',
-    variant: 'green',
+    icon: '/HelpTheFellowShortIco.svg',
+    variant: 'gray',
     description:
       "Give your child the priceless gift of early learning. Our platform is designed for the youngest \
       explorers, providing a valuable head start in coding, math, and English language. Say goodbye to \
